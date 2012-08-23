@@ -142,13 +142,13 @@
 		22552BCB134B9E5300B8894E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		22552BE6134BA0C900B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		22552C12134BA18A00B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		225EC67211EBAA4800A97AEA /* ECLoggingMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECLoggingMacTests.octest; path = ECOAuthConsumerMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225EC67211EBAA4800A97AEA /* ECOAuthConsumerMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECOAuthConsumerMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22602234141F8A160044644C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
 		22602236141F8A230044644C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
 		227333B811EBBA3000695FB4 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Library/Frameworks/GHUnit.framework; sourceTree = SDKROOT; };
-		2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECLoggingIOSTests.octest; path = ECOAuthConsumerIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2274B38D14F56896003B8A0B /* ECOAuthConsumerIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECOAuthConsumerIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274B38F14F56896003B8A0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3BB14F52E93009142F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2283A3BE14F52E93009142F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -251,8 +251,8 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				225EC67211EBAA4800A97AEA /* ECLoggingMacTests.octest */,
-				2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */,
+				225EC67211EBAA4800A97AEA /* ECOAuthConsumerMacTests.octest */,
+				2274B38D14F56896003B8A0B /* ECOAuthConsumerIOSTests.octest */,
 				2251B9FF15DBCC3E00F2FE40 /* ECOAuthConsumer.framework */,
 				2251BA1215DBCC4A00F2FE40 /* ECOAuthConsumer.framework */,
 			);
@@ -562,7 +562,7 @@
 			);
 			name = ECOAuthConsumerMacTests;
 			productName = "EC Foundation Unit Tests";
-			productReference = 225EC67211EBAA4800A97AEA /* ECLoggingMacTests.octest */;
+			productReference = 225EC67211EBAA4800A97AEA /* ECOAuthConsumerMacTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2274B38C14F56896003B8A0B /* ECOAuthConsumerIOSTests */ = {
@@ -580,7 +580,7 @@
 			);
 			name = ECOAuthConsumerIOSTests;
 			productName = blahTests;
-			productReference = 2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */;
+			productReference = 2274B38D14F56896003B8A0B /* ECOAuthConsumerIOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
