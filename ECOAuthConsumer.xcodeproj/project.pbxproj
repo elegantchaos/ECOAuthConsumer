@@ -20,6 +20,84 @@
 		2274B38E14F56896003B8A0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
 		2274B39014F56896003B8A0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2274B38F14F56896003B8A0B /* UIKit.framework */; };
 		2274B39114F56896003B8A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2237ECE314F5644C00085BF5 /* Foundation.framework */; };
+		22F08D4315E61B40003E8456 /* NSMutableURLRequest+Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1A15E61B40003E8456 /* NSMutableURLRequest+Parameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D4415E61B40003E8456 /* NSMutableURLRequest+Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1A15E61B40003E8456 /* NSMutableURLRequest+Parameters.h */; };
+		22F08D4515E61B40003E8456 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1B15E61B40003E8456 /* NSMutableURLRequest+Parameters.m */; };
+		22F08D4615E61B40003E8456 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1B15E61B40003E8456 /* NSMutableURLRequest+Parameters.m */; };
+		22F08D4715E61B40003E8456 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1C15E61B40003E8456 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D4815E61B40003E8456 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1C15E61B40003E8456 /* NSString+URLEncoding.h */; };
+		22F08D4915E61B40003E8456 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1D15E61B40003E8456 /* NSString+URLEncoding.m */; };
+		22F08D4A15E61B40003E8456 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1D15E61B40003E8456 /* NSString+URLEncoding.m */; };
+		22F08D4B15E61B40003E8456 /* NSURL+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1E15E61B40003E8456 /* NSURL+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D4C15E61B40003E8456 /* NSURL+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D1E15E61B40003E8456 /* NSURL+Base.h */; };
+		22F08D4D15E61B40003E8456 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1F15E61B40003E8456 /* NSURL+Base.m */; };
+		22F08D4E15E61B40003E8456 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D1F15E61B40003E8456 /* NSURL+Base.m */; };
+		22F08D4F15E61B40003E8456 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2115E61B40003E8456 /* Base64Transcoder.c */; };
+		22F08D5015E61B40003E8456 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2115E61B40003E8456 /* Base64Transcoder.c */; };
+		22F08D5115E61B40003E8456 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2215E61B40003E8456 /* Base64Transcoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D5215E61B40003E8456 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2215E61B40003E8456 /* Base64Transcoder.h */; };
+		22F08D5315E61B40003E8456 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2315E61B40003E8456 /* hmac.c */; };
+		22F08D5415E61B40003E8456 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2315E61B40003E8456 /* hmac.c */; };
+		22F08D5515E61B40003E8456 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2415E61B40003E8456 /* hmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D5615E61B40003E8456 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2415E61B40003E8456 /* hmac.h */; };
+		22F08D5715E61B40003E8456 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2515E61B40003E8456 /* sha1.c */; };
+		22F08D5815E61B40003E8456 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2515E61B40003E8456 /* sha1.c */; };
+		22F08D5915E61B40003E8456 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2615E61B40003E8456 /* sha1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D5A15E61B40003E8456 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2615E61B40003E8456 /* sha1.h */; };
+		22F08D5B15E61B40003E8456 /* OAAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2715E61B40003E8456 /* OAAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D5C15E61B40003E8456 /* OAAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2715E61B40003E8456 /* OAAttachment.h */; };
+		22F08D5D15E61B40003E8456 /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2815E61B40003E8456 /* OAAttachment.m */; };
+		22F08D5E15E61B40003E8456 /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2815E61B40003E8456 /* OAAttachment.m */; };
+		22F08D5F15E61B40003E8456 /* OACall.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2915E61B40003E8456 /* OACall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D6015E61B40003E8456 /* OACall.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2915E61B40003E8456 /* OACall.h */; };
+		22F08D6115E61B40003E8456 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2A15E61B40003E8456 /* OACall.m */; };
+		22F08D6215E61B40003E8456 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2A15E61B40003E8456 /* OACall.m */; };
+		22F08D6315E61B40003E8456 /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2B15E61B40003E8456 /* OAConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D6415E61B40003E8456 /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2B15E61B40003E8456 /* OAConsumer.h */; };
+		22F08D6515E61B40003E8456 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2C15E61B40003E8456 /* OAConsumer.m */; };
+		22F08D6615E61B40003E8456 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2C15E61B40003E8456 /* OAConsumer.m */; };
+		22F08D6715E61B40003E8456 /* OADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2D15E61B40003E8456 /* OADataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D6815E61B40003E8456 /* OADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2D15E61B40003E8456 /* OADataFetcher.h */; };
+		22F08D6915E61B40003E8456 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2E15E61B40003E8456 /* OADataFetcher.m */; };
+		22F08D6A15E61B40003E8456 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D2E15E61B40003E8456 /* OADataFetcher.m */; };
+		22F08D6B15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2F15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D6C15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D2F15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h */; };
+		22F08D6D15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3015E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m */; };
+		22F08D6E15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3015E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m */; };
+		22F08D6F15E61B40003E8456 /* OAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3115E61B40003E8456 /* OAMutableURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D7015E61B40003E8456 /* OAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3115E61B40003E8456 /* OAMutableURLRequest.h */; };
+		22F08D7115E61B40003E8456 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3215E61B40003E8456 /* OAMutableURLRequest.m */; };
+		22F08D7215E61B40003E8456 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3215E61B40003E8456 /* OAMutableURLRequest.m */; };
+		22F08D7315E61B40003E8456 /* OAPlaintextSignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3315E61B40003E8456 /* OAPlaintextSignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D7415E61B40003E8456 /* OAPlaintextSignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3315E61B40003E8456 /* OAPlaintextSignatureProvider.h */; };
+		22F08D7515E61B40003E8456 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3415E61B40003E8456 /* OAPlaintextSignatureProvider.m */; };
+		22F08D7615E61B40003E8456 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3415E61B40003E8456 /* OAPlaintextSignatureProvider.m */; };
+		22F08D7715E61B40003E8456 /* OAProblem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3515E61B40003E8456 /* OAProblem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D7815E61B40003E8456 /* OAProblem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3515E61B40003E8456 /* OAProblem.h */; };
+		22F08D7915E61B40003E8456 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3615E61B40003E8456 /* OAProblem.m */; };
+		22F08D7A15E61B40003E8456 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3615E61B40003E8456 /* OAProblem.m */; };
+		22F08D7B15E61B40003E8456 /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3715E61B40003E8456 /* OARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D7C15E61B40003E8456 /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3715E61B40003E8456 /* OARequestParameter.h */; };
+		22F08D7D15E61B40003E8456 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3815E61B40003E8456 /* OARequestParameter.m */; };
+		22F08D7E15E61B40003E8456 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3815E61B40003E8456 /* OARequestParameter.m */; };
+		22F08D7F15E61B40003E8456 /* OAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3915E61B40003E8456 /* OAServiceTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D8015E61B40003E8456 /* OAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3915E61B40003E8456 /* OAServiceTicket.h */; };
+		22F08D8115E61B40003E8456 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3A15E61B40003E8456 /* OAServiceTicket.m */; };
+		22F08D8215E61B40003E8456 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3A15E61B40003E8456 /* OAServiceTicket.m */; };
+		22F08D8315E61B40003E8456 /* OASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3B15E61B40003E8456 /* OASignatureProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D8415E61B40003E8456 /* OASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3B15E61B40003E8456 /* OASignatureProviding.h */; };
+		22F08D8515E61B40003E8456 /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 22F08D3C15E61B40003E8456 /* OATestServer.rb */; };
+		22F08D8615E61B40003E8456 /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 22F08D3C15E61B40003E8456 /* OATestServer.rb */; };
+		22F08D8715E61B40003E8456 /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3D15E61B40003E8456 /* OAToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D8815E61B40003E8456 /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3D15E61B40003E8456 /* OAToken.h */; };
+		22F08D8915E61B40003E8456 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3E15E61B40003E8456 /* OAToken.m */; };
+		22F08D8A15E61B40003E8456 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D3E15E61B40003E8456 /* OAToken.m */; };
+		22F08D8B15E61B40003E8456 /* OATokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3F15E61B40003E8456 /* OATokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D8C15E61B40003E8456 /* OATokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D3F15E61B40003E8456 /* OATokenManager.h */; };
+		22F08D8D15E61B40003E8456 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D4015E61B40003E8456 /* OATokenManager.m */; };
+		22F08D8E15E61B40003E8456 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D4015E61B40003E8456 /* OATokenManager.m */; };
+		22F08D8F15E61B40003E8456 /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D4115E61B40003E8456 /* OAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D9015E61B40003E8456 /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D4115E61B40003E8456 /* OAuthConsumer.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,7 +146,6 @@
 		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
 		227333B811EBBA3000695FB4 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Library/Frameworks/GHUnit.framework; sourceTree = SDKROOT; };
-		2274B37814F56679003B8A0B /* ECLoggingTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECLoggingTests.plist; sourceTree = "<group>"; };
 		2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLoggingIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274B38F14F56896003B8A0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3BB14F52E93009142F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -83,6 +160,46 @@
 		22BE51331496BD00007CC214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		22BE51351496BD25007CC214 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		22EC40A61358A0D1005C1F1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		22F08D1A15E61B40003E8456 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		22F08D1B15E61B40003E8456 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		22F08D1C15E61B40003E8456 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		22F08D1D15E61B40003E8456 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		22F08D1E15E61B40003E8456 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		22F08D1F15E61B40003E8456 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		22F08D2115E61B40003E8456 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		22F08D2215E61B40003E8456 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		22F08D2315E61B40003E8456 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		22F08D2415E61B40003E8456 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		22F08D2515E61B40003E8456 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		22F08D2615E61B40003E8456 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		22F08D2715E61B40003E8456 /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
+		22F08D2815E61B40003E8456 /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
+		22F08D2915E61B40003E8456 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		22F08D2A15E61B40003E8456 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		22F08D2B15E61B40003E8456 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		22F08D2C15E61B40003E8456 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		22F08D2D15E61B40003E8456 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		22F08D2E15E61B40003E8456 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		22F08D2F15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		22F08D3015E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		22F08D3115E61B40003E8456 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		22F08D3215E61B40003E8456 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		22F08D3315E61B40003E8456 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		22F08D3415E61B40003E8456 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		22F08D3515E61B40003E8456 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		22F08D3615E61B40003E8456 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		22F08D3715E61B40003E8456 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		22F08D3815E61B40003E8456 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		22F08D3915E61B40003E8456 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		22F08D3A15E61B40003E8456 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		22F08D3B15E61B40003E8456 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		22F08D3C15E61B40003E8456 /* OATestServer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = OATestServer.rb; sourceTree = "<group>"; };
+		22F08D3D15E61B40003E8456 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		22F08D3E15E61B40003E8456 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		22F08D3F15E61B40003E8456 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		22F08D4015E61B40003E8456 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		22F08D4115E61B40003E8456 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		22F08D4215E61B40003E8456 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		22FAC46C132149E900103630 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -229,7 +346,6 @@
 			isa = PBXGroup;
 			children = (
 				2251BA6C15DBDA5100F2FE40 /* Info.plist */,
-				2274B37814F56679003B8A0B /* ECLoggingTests.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -257,10 +373,74 @@
 		22BBB10114F646D20086974D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				22F08D1815E61B40003E8456 /* OAuthConsumer */,
 				2251BA4215DBCD3900F2FE40 /* Configuration */,
 				2283A4C814F53C6F009142F7 /* Prefix */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		22F08D1815E61B40003E8456 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				22F08D1915E61B40003E8456 /* Categories */,
+				22F08D2015E61B40003E8456 /* Crypto */,
+				22F08D2715E61B40003E8456 /* OAAttachment.h */,
+				22F08D2815E61B40003E8456 /* OAAttachment.m */,
+				22F08D2915E61B40003E8456 /* OACall.h */,
+				22F08D2A15E61B40003E8456 /* OACall.m */,
+				22F08D2B15E61B40003E8456 /* OAConsumer.h */,
+				22F08D2C15E61B40003E8456 /* OAConsumer.m */,
+				22F08D2D15E61B40003E8456 /* OADataFetcher.h */,
+				22F08D2E15E61B40003E8456 /* OADataFetcher.m */,
+				22F08D2F15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h */,
+				22F08D3015E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m */,
+				22F08D3115E61B40003E8456 /* OAMutableURLRequest.h */,
+				22F08D3215E61B40003E8456 /* OAMutableURLRequest.m */,
+				22F08D3315E61B40003E8456 /* OAPlaintextSignatureProvider.h */,
+				22F08D3415E61B40003E8456 /* OAPlaintextSignatureProvider.m */,
+				22F08D3515E61B40003E8456 /* OAProblem.h */,
+				22F08D3615E61B40003E8456 /* OAProblem.m */,
+				22F08D3715E61B40003E8456 /* OARequestParameter.h */,
+				22F08D3815E61B40003E8456 /* OARequestParameter.m */,
+				22F08D3915E61B40003E8456 /* OAServiceTicket.h */,
+				22F08D3A15E61B40003E8456 /* OAServiceTicket.m */,
+				22F08D3B15E61B40003E8456 /* OASignatureProviding.h */,
+				22F08D3C15E61B40003E8456 /* OATestServer.rb */,
+				22F08D3D15E61B40003E8456 /* OAToken.h */,
+				22F08D3E15E61B40003E8456 /* OAToken.m */,
+				22F08D3F15E61B40003E8456 /* OATokenManager.h */,
+				22F08D4015E61B40003E8456 /* OATokenManager.m */,
+				22F08D4115E61B40003E8456 /* OAuthConsumer.h */,
+				22F08D4215E61B40003E8456 /* README */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+		22F08D1915E61B40003E8456 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22F08D1A15E61B40003E8456 /* NSMutableURLRequest+Parameters.h */,
+				22F08D1B15E61B40003E8456 /* NSMutableURLRequest+Parameters.m */,
+				22F08D1C15E61B40003E8456 /* NSString+URLEncoding.h */,
+				22F08D1D15E61B40003E8456 /* NSString+URLEncoding.m */,
+				22F08D1E15E61B40003E8456 /* NSURL+Base.h */,
+				22F08D1F15E61B40003E8456 /* NSURL+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		22F08D2015E61B40003E8456 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				22F08D2115E61B40003E8456 /* Base64Transcoder.c */,
+				22F08D2215E61B40003E8456 /* Base64Transcoder.h */,
+				22F08D2315E61B40003E8456 /* hmac.c */,
+				22F08D2415E61B40003E8456 /* hmac.h */,
+				22F08D2515E61B40003E8456 /* sha1.c */,
+				22F08D2615E61B40003E8456 /* sha1.h */,
+			);
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +450,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D4315E61B40003E8456 /* NSMutableURLRequest+Parameters.h in Headers */,
+				22F08D4715E61B40003E8456 /* NSString+URLEncoding.h in Headers */,
+				22F08D4B15E61B40003E8456 /* NSURL+Base.h in Headers */,
+				22F08D5115E61B40003E8456 /* Base64Transcoder.h in Headers */,
+				22F08D5515E61B40003E8456 /* hmac.h in Headers */,
+				22F08D5915E61B40003E8456 /* sha1.h in Headers */,
+				22F08D5B15E61B40003E8456 /* OAAttachment.h in Headers */,
+				22F08D5F15E61B40003E8456 /* OACall.h in Headers */,
+				22F08D6315E61B40003E8456 /* OAConsumer.h in Headers */,
+				22F08D6715E61B40003E8456 /* OADataFetcher.h in Headers */,
+				22F08D6B15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h in Headers */,
+				22F08D6F15E61B40003E8456 /* OAMutableURLRequest.h in Headers */,
+				22F08D7315E61B40003E8456 /* OAPlaintextSignatureProvider.h in Headers */,
+				22F08D7715E61B40003E8456 /* OAProblem.h in Headers */,
+				22F08D7B15E61B40003E8456 /* OARequestParameter.h in Headers */,
+				22F08D7F15E61B40003E8456 /* OAServiceTicket.h in Headers */,
+				22F08D8315E61B40003E8456 /* OASignatureProviding.h in Headers */,
+				22F08D8715E61B40003E8456 /* OAToken.h in Headers */,
+				22F08D8B15E61B40003E8456 /* OATokenManager.h in Headers */,
+				22F08D8F15E61B40003E8456 /* OAuthConsumer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,15 +477,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D4415E61B40003E8456 /* NSMutableURLRequest+Parameters.h in Headers */,
+				22F08D4815E61B40003E8456 /* NSString+URLEncoding.h in Headers */,
+				22F08D4C15E61B40003E8456 /* NSURL+Base.h in Headers */,
+				22F08D5215E61B40003E8456 /* Base64Transcoder.h in Headers */,
+				22F08D5615E61B40003E8456 /* hmac.h in Headers */,
+				22F08D5A15E61B40003E8456 /* sha1.h in Headers */,
+				22F08D5C15E61B40003E8456 /* OAAttachment.h in Headers */,
+				22F08D6015E61B40003E8456 /* OACall.h in Headers */,
+				22F08D6415E61B40003E8456 /* OAConsumer.h in Headers */,
+				22F08D6815E61B40003E8456 /* OADataFetcher.h in Headers */,
+				22F08D6C15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.h in Headers */,
+				22F08D7015E61B40003E8456 /* OAMutableURLRequest.h in Headers */,
+				22F08D7415E61B40003E8456 /* OAPlaintextSignatureProvider.h in Headers */,
+				22F08D7815E61B40003E8456 /* OAProblem.h in Headers */,
+				22F08D7C15E61B40003E8456 /* OARequestParameter.h in Headers */,
+				22F08D8015E61B40003E8456 /* OAServiceTicket.h in Headers */,
+				22F08D8415E61B40003E8456 /* OASignatureProviding.h in Headers */,
+				22F08D8815E61B40003E8456 /* OAToken.h in Headers */,
+				22F08D8C15E61B40003E8456 /* OATokenManager.h in Headers */,
+				22F08D9015E61B40003E8456 /* OAuthConsumer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2251B9FE15DBCC3E00F2FE40 /* ECLoggingMac */ = {
+		2251B9FE15DBCC3E00F2FE40 /* ECOAuthConsumerMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2251BA0B15DBCC3E00F2FE40 /* Build configuration list for PBXNativeTarget "ECLoggingMac" */;
+			buildConfigurationList = 2251BA0B15DBCC3E00F2FE40 /* Build configuration list for PBXNativeTarget "ECOAuthConsumerMac" */;
 			buildPhases = (
 				2251B9FA15DBCC3E00F2FE40 /* Sources */,
 				2251B9FB15DBCC3E00F2FE40 /* Frameworks */,
@@ -296,14 +516,14 @@
 			);
 			dependencies = (
 			);
-			name = ECLoggingMac;
+			name = ECOAuthConsumerMac;
 			productName = MacFramework;
 			productReference = 2251B9FF15DBCC3E00F2FE40 /* ECOAuthConsumer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2251BA1115DBCC4A00F2FE40 /* ECLoggingIOS */ = {
+		2251BA1115DBCC4A00F2FE40 /* ECOAuthConsumerIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2251BA1C15DBCC4A00F2FE40 /* Build configuration list for PBXNativeTarget "ECLoggingIOS" */;
+			buildConfigurationList = 2251BA1C15DBCC4A00F2FE40 /* Build configuration list for PBXNativeTarget "ECOAuthConsumerIOS" */;
 			buildPhases = (
 				2251BA0E15DBCC4A00F2FE40 /* Sources */,
 				2251BA7A15DBDC2100F2FE40 /* Headers */,
@@ -315,14 +535,14 @@
 			);
 			dependencies = (
 			);
-			name = ECLoggingIOS;
+			name = ECOAuthConsumerIOS;
 			productName = "iOS Bundle";
 			productReference = 2251BA1215DBCC4A00F2FE40 /* ECOAuthConsumer.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
-		225EC67111EBAA4800A97AEA /* ECLoggingMacTests */ = {
+		225EC67111EBAA4800A97AEA /* ECOAuthConsumerMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225EC67611EBAA4800A97AEA /* Build configuration list for PBXNativeTarget "ECLoggingMacTests" */;
+			buildConfigurationList = 225EC67611EBAA4800A97AEA /* Build configuration list for PBXNativeTarget "ECOAuthConsumerMacTests" */;
 			buildPhases = (
 				225EC66D11EBAA4800A97AEA /* Resources */,
 				225EC66E11EBAA4800A97AEA /* Sources */,
@@ -334,14 +554,14 @@
 			);
 			dependencies = (
 			);
-			name = ECLoggingMacTests;
+			name = ECOAuthConsumerMacTests;
 			productName = "EC Foundation Unit Tests";
 			productReference = 225EC67211EBAA4800A97AEA /* ECLoggingMacTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		2274B38C14F56896003B8A0B /* ECLoggingIOSTests */ = {
+		2274B38C14F56896003B8A0B /* ECOAuthConsumerIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2274B3A114F56896003B8A0B /* Build configuration list for PBXNativeTarget "ECLoggingIOSTests" */;
+			buildConfigurationList = 2274B3A114F56896003B8A0B /* Build configuration list for PBXNativeTarget "ECOAuthConsumerIOSTests" */;
 			buildPhases = (
 				2274B38814F56896003B8A0B /* Sources */,
 				2274B38914F56896003B8A0B /* Frameworks */,
@@ -352,7 +572,7 @@
 			);
 			dependencies = (
 			);
-			name = ECLoggingIOSTests;
+			name = ECOAuthConsumerIOSTests;
 			productName = blahTests;
 			productReference = 2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -383,10 +603,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2251B9FE15DBCC3E00F2FE40 /* ECLoggingMac */,
-				225EC67111EBAA4800A97AEA /* ECLoggingMacTests */,
-				2251BA1115DBCC4A00F2FE40 /* ECLoggingIOS */,
-				2274B38C14F56896003B8A0B /* ECLoggingIOSTests */,
+				2251B9FE15DBCC3E00F2FE40 /* ECOAuthConsumerMac */,
+				225EC67111EBAA4800A97AEA /* ECOAuthConsumerMacTests */,
+				2251BA1115DBCC4A00F2FE40 /* ECOAuthConsumerIOS */,
+				2274B38C14F56896003B8A0B /* ECOAuthConsumerIOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -396,6 +616,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D8515E61B40003E8456 /* OATestServer.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +624,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D8615E61B40003E8456 /* OATestServer.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +694,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D4515E61B40003E8456 /* NSMutableURLRequest+Parameters.m in Sources */,
+				22F08D4915E61B40003E8456 /* NSString+URLEncoding.m in Sources */,
+				22F08D4D15E61B40003E8456 /* NSURL+Base.m in Sources */,
+				22F08D4F15E61B40003E8456 /* Base64Transcoder.c in Sources */,
+				22F08D5315E61B40003E8456 /* hmac.c in Sources */,
+				22F08D5715E61B40003E8456 /* sha1.c in Sources */,
+				22F08D5D15E61B40003E8456 /* OAAttachment.m in Sources */,
+				22F08D6115E61B40003E8456 /* OACall.m in Sources */,
+				22F08D6515E61B40003E8456 /* OAConsumer.m in Sources */,
+				22F08D6915E61B40003E8456 /* OADataFetcher.m in Sources */,
+				22F08D6D15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				22F08D7115E61B40003E8456 /* OAMutableURLRequest.m in Sources */,
+				22F08D7515E61B40003E8456 /* OAPlaintextSignatureProvider.m in Sources */,
+				22F08D7915E61B40003E8456 /* OAProblem.m in Sources */,
+				22F08D7D15E61B40003E8456 /* OARequestParameter.m in Sources */,
+				22F08D8115E61B40003E8456 /* OAServiceTicket.m in Sources */,
+				22F08D8915E61B40003E8456 /* OAToken.m in Sources */,
+				22F08D8D15E61B40003E8456 /* OATokenManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +719,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08D4615E61B40003E8456 /* NSMutableURLRequest+Parameters.m in Sources */,
+				22F08D4A15E61B40003E8456 /* NSString+URLEncoding.m in Sources */,
+				22F08D4E15E61B40003E8456 /* NSURL+Base.m in Sources */,
+				22F08D5015E61B40003E8456 /* Base64Transcoder.c in Sources */,
+				22F08D5415E61B40003E8456 /* hmac.c in Sources */,
+				22F08D5815E61B40003E8456 /* sha1.c in Sources */,
+				22F08D5E15E61B40003E8456 /* OAAttachment.m in Sources */,
+				22F08D6215E61B40003E8456 /* OACall.m in Sources */,
+				22F08D6615E61B40003E8456 /* OAConsumer.m in Sources */,
+				22F08D6A15E61B40003E8456 /* OADataFetcher.m in Sources */,
+				22F08D6E15E61B40003E8456 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				22F08D7215E61B40003E8456 /* OAMutableURLRequest.m in Sources */,
+				22F08D7615E61B40003E8456 /* OAPlaintextSignatureProvider.m in Sources */,
+				22F08D7A15E61B40003E8456 /* OAProblem.m in Sources */,
+				22F08D7E15E61B40003E8456 /* OARequestParameter.m in Sources */,
+				22F08D8215E61B40003E8456 /* OAServiceTicket.m in Sources */,
+				22F08D8A15E61B40003E8456 /* OAToken.m in Sources */,
+				22F08D8E15E61B40003E8456 /* OATokenManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,7 +851,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2251BA0B15DBCC3E00F2FE40 /* Build configuration list for PBXNativeTarget "ECLoggingMac" */ = {
+		2251BA0B15DBCC3E00F2FE40 /* Build configuration list for PBXNativeTarget "ECOAuthConsumerMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2251BA0C15DBCC3E00F2FE40 /* Debug */,
@@ -602,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2251BA1C15DBCC4A00F2FE40 /* Build configuration list for PBXNativeTarget "ECLoggingIOS" */ = {
+		2251BA1C15DBCC4A00F2FE40 /* Build configuration list for PBXNativeTarget "ECOAuthConsumerIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2251BA1D15DBCC4A00F2FE40 /* Debug */,
@@ -611,7 +869,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		225EC67611EBAA4800A97AEA /* Build configuration list for PBXNativeTarget "ECLoggingMacTests" */ = {
+		225EC67611EBAA4800A97AEA /* Build configuration list for PBXNativeTarget "ECOAuthConsumerMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				225EC67411EBAA4800A97AEA /* Debug */,
@@ -620,7 +878,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2274B3A114F56896003B8A0B /* Build configuration list for PBXNativeTarget "ECLoggingIOSTests" */ = {
+		2274B3A114F56896003B8A0B /* Build configuration list for PBXNativeTarget "ECOAuthConsumerIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2274B3A214F56896003B8A0B /* Debug */,
