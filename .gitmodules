@@ -1,0 +1,3 @@
+[submodule "Source/OAuthConsumer"]
+	path = Source/OAuthConsumer
+	url = git@github.com:samdeane/oauthconsumer.git
