@@ -1,3 +1,0 @@
-[submodule "oauthconsumer"]
-	path = oauthconsumer
-	url = git@github.com:samdeane/oauthconsumer.git
