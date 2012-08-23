@@ -98,6 +98,8 @@
 		22F08D8E15E61B40003E8456 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08D4015E61B40003E8456 /* OATokenManager.m */; };
 		22F08D8F15E61B40003E8456 /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D4115E61B40003E8456 /* OAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F08D9015E61B40003E8456 /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D4115E61B40003E8456 /* OAuthConsumer.h */; };
+		22F08D9415E61F5C003E8456 /* ECOAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D9315E61F5C003E8456 /* ECOAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08D9515E61F5C003E8456 /* ECOAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D9315E61F5C003E8456 /* ECOAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +202,7 @@
 		22F08D4015E61B40003E8456 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
 		22F08D4115E61B40003E8456 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
 		22F08D4215E61B40003E8456 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		22F08D9315E61F5C003E8456 /* ECOAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECOAuthConsumer.h; path = Generic/ECOAuthConsumer.h; sourceTree = "<group>"; };
 		22FAC46C132149E900103630 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -373,6 +376,7 @@
 		22BBB10114F646D20086974D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				22F08D9315E61F5C003E8456 /* ECOAuthConsumer.h */,
 				22F08D1815E61B40003E8456 /* OAuthConsumer */,
 				2251BA4215DBCD3900F2FE40 /* Configuration */,
 				2283A4C814F53C6F009142F7 /* Prefix */,
@@ -470,6 +474,7 @@
 				22F08D8715E61B40003E8456 /* OAToken.h in Headers */,
 				22F08D8B15E61B40003E8456 /* OATokenManager.h in Headers */,
 				22F08D8F15E61B40003E8456 /* OAuthConsumer.h in Headers */,
+				22F08D9415E61F5C003E8456 /* ECOAuthConsumer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +502,7 @@
 				22F08D8815E61B40003E8456 /* OAToken.h in Headers */,
 				22F08D8C15E61B40003E8456 /* OATokenManager.h in Headers */,
 				22F08D9015E61B40003E8456 /* OAuthConsumer.h in Headers */,
+				22F08D9515E61F5C003E8456 /* ECOAuthConsumer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
