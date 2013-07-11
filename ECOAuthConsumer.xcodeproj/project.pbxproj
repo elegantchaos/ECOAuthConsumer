@@ -156,6 +156,7 @@
 		2283A3C014F52E93009142F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2283A3CD14F52E93009142F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A4CB14F53C6F009142F7 /* ECOAuthConsumerShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECOAuthConsumerShared.pch; sourceTree = "<group>"; };
+		22860938178EF9E60081E917 /* ECOAuthConsumer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ECOAuthConsumer.xcconfig; sourceTree = "<group>"; };
 		22970D3C14F5AA80007B254B /* ECOAuthConsumerDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECOAuthConsumerDebug.pch; sourceTree = "<group>"; };
 		22970D3D14F5AA80007B254B /* ECOAuthConsumerRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECOAuthConsumerRelease.pch; sourceTree = "<group>"; };
 		22BE50B8149662D0007CC214 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -341,6 +342,7 @@
 				2251BA5D15DBD68500F2FE40 /* IOSUnitTestRelease.xcconfig */,
 				2251BA5E15DBD68500F2FE40 /* MacUnitTestDebug.xcconfig */,
 				2251BA5F15DBD68500F2FE40 /* MacUnitTestRelease.xcconfig */,
+				22860938178EF9E60081E917 /* ECOAuthConsumer.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";

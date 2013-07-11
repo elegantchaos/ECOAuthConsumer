@@ -7,6 +7,7 @@
 /// Standard xcconfig files.
 /// The use of a relative path here relies on ECLogging being in a known location. See <ImportNote> in the documentation for more details.
 
-#include "../ECLogging/Source/Configuration/ECIOSDebug.xcconfig"
-#include "../ECLogging/Source/Configuration/ECUnitTests.xcconfig"
-#include "ECOAuthConsumer.xcconfig"
+CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO
+CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO
+GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO
+GCC_WARN_64_TO_32_BIT_CONVERSION = NO
